@@ -1,0 +1,70 @@
+---
+---
+
+@charset "utf-8";
+
+@import "00-base/normalize",
+        "00-base/variables",
+        "00-base/helpers",
+        "00-base/animations",
+        "00-base/mixins";
+
+@import "01-atoms/media",
+        "01-atoms/layout",
+        "01-atoms/typography",
+        "01-atoms/lists";
+
+@import "02-molecules/nav.scss",
+        "02-molecules/pagination.scss",
+        "02-molecules/top-intro.scss";
+
+@import "03-organisms/header",
+        "03-organisms/footer",
+        "03-organisms/work-list";
+
+@import "04-templates/post";
+
+#Hello {
+        display: inline-block;
+}
+
+#changeLang {
+        float: right;
+        position: relative;
+        background-color: rgba(0,0,0,0);
+        border-radius: 100%;
+        border: none;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-weight: bold;
+        width: 32px;
+        height: 32px;
+        padding: 1px auto 2px auto;
+}
+
+#changeLang:hover {
+        background-color: #0000ff;      
+        color: #fff;
+}
+
+.hint2 {
+        border-bottom: 2px solid #111;       
+}
+
+.hint2:hover {
+        color: #fff;
+        background-color: #0000ff;
+        border-bottom: 2px solid #0000ff;
+}
+
+.kr {
+        display: none;
+}
+
+
+  @media only screen and (max-width:650px){
+  #s1 {
+    display: none;
+  }
+}
