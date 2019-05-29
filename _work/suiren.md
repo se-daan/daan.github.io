@@ -8,7 +8,7 @@ color:            "#E4E8F5"
 hyperlink:        https://www.suiren.io/
 type:             "Brand programming"
 runin:            "천연비누협회 Seoul Soap Design LAB입니다. "
-description:      "Logo | Visual identity | Patent"<br>"Bookcover | Package design | Print design"
+description:      "Logo | Visual identity | Patent<br>Bookcover | Package design | Print design"
 layout:           post
 ---
 
