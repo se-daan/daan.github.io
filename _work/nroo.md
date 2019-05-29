@@ -7,7 +7,7 @@ cover:            "/img/work/webcomponents/webcomponents-cover.svg"
 color:            "#FCE6C0"
 hyperlink:        https://www.webcomponents.org/
 type:             "Brand programming"
-description:      "Logo | Visual identity |Business strategy<br>Product design | Package design | Print design"
+description:      "Logo | Visual identity | Business strategy<br>Product design | Package design | Print design"
 runin:            "I worked with designers and developers from Google and AQ to create this central directory of web components. With this platform, our goal was to make web components more comprehensive to developers who weren't familiar with them while supporting and nurturing the community of developers that were already on board."
 layout:           post
 ---
