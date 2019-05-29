@@ -1,6 +1,6 @@
 ---
 title:            "SSDA"
-date:             2019-04-19 00:00:00
+date:             2019-05-05 00:00:00
 year:             2019
 class:            SSDA
 cover:            "/img/work/suiren/suiren-cover.svg"
