@@ -2,12 +2,12 @@
 title:            "SSDA"
 date:             2019-04-19 00:00:00
 year:             2019
-class:            suiren
+class:            SSDA
 cover:            "/img/work/suiren/suiren-cover.svg"
 color:            "#E4E8F5"
 hyperlink:        https://www.suiren.io/
-type:             "Web / IxD & Front-End Design"
-runin:            "During my time at AQ in Tokyo, my colleague <a class='hint' href='https://twitter.com/oiorain'>Marion Bouguet</a> had been working on this incredible little project that was already fully functional and working well.<br/><br/>The concept is simple: hop from one word to another and explore the different relationships between japanese kanjis. I collaborated with her to make Suiren more pleasant to use and prettier to look at. You should <a class='hint' href='http://suiren.io/words/%E8%A8%80%E5%8F%8A'>try it</a>."
+type:             "Brand programming"
+runin:            "천연비누협회 Seoul Soap Design LAB입니다. "
 description:      "Logo,Visual identity,Patent,Bookcover,Package design,Print design"
 layout:           post
 ---
