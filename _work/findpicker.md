@@ -1,14 +1,14 @@
 ---
-title:            "MY ASICS Exchange"
-date:             2015-12-10 14:00:00
-year:             2015
+title:            "Find picker"
+date:             2018-08-08 00:00:00
+year:             2018
 color:            "#E4E6EA"
-class:            exchange
+class:            findpicker
 cover:            "/img/work/exchange/exchange-cover.svg"
 hyperlink:        http://exchange.asics.com
-type:             "Web / Interaction & Front-End Design"
-description:      "A social app to share running tips"
-runin:            "Running can be a social experience at times but for a lot of people, it is a solitary one. <a class='hint' href='http://exchange.asics.com'>Exchange</a> is a tentative to gather and share publicly thousands of runners' knowledge across many different topics from pre-marathon nutrition tips to breathing techniques during daily jogs.<br/><br/>Exchange was created and maintained at <a class='hint' href='http://www.aqworks.com'>AQ</a> between 2015 and 2016. I designed and developed the User Interface as well as created a <a class='hint' href='http://exchange.asics.com/design'>living design system</a>."
+type:             "Brand programming"
+description:      "Logo | Visual identity<br>Package design | Print design"
+runin:            "세계의 숨은 양질의 제품을 소개하는 편집 브랜드 Find picekr입니다."
 layout:           post
 ---
 
