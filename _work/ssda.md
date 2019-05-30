@@ -31,12 +31,3 @@ layout:           post
     <img class="post-content-screen desktop" src="{{ site.baseurl }}/img/work/ssda/15.png" />
   </div>
 </div>
-
-<div class="post-content-grid">
-  <div class="post-content-column column-2">
-    <img class="post-content-screen desktop" src="{{ site.baseurl }}/img/work/suiren/suiren-keyword-tablet.png" />
-  </div>
-  <div class="post-content-column column-3">
-    <img class="post-content-screen iphone" src="{{ site.baseurl }}/img/work/suiren/suiren-keyword-mobile.png" />
-  </div>
-</div>
