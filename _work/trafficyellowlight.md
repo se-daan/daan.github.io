@@ -1,14 +1,14 @@
 ---
-title:            "Traffic Yellow Light"
 date:             2019-02-02 00:00:00
-year:             2019
-color:            "#F0ECE1"
+title:            "Traffic Yellow Light"
 class:            trafficyellowlight
-cover:            "/img/work/hikari/hikari-cover.svg"
-hyperlink:        https://github.com/mx3m/hikari-for-Jekyll
-type:             "Public design"
 description:      "UX | Product design | Patent"
+color:            "#F0ECE1"
+cover:            "/img/work/hikari/hikari-cover.svg"
+type:             "Public design"
+year:             2019
 runin:            "교통신호."
+hyperlink:        
 published : true
 layout:           post
 ---
