@@ -14,20 +14,20 @@ layout:           post
 
 <div class="post-content-grid">
   <div class="post-content-column column-1">
-    <img class="post-content-screen desktop" src="{{ site.baseurl }}/img/work/ssda/01.png" />
+    <img class="post-content-screen desktop" src="{{ site.baseurl }}/img/work/ssda/01.jpg" />
     <img class="post-content-screen desktop" src="{{ site.baseurl }}/img/work/ssda/02.jpg" />
-    <img class="post-content-screen desktop" src="{{ site.baseurl }}/img/work/ssda/03.png" />
-    <img class="post-content-screen desktop" src="{{ site.baseurl }}/img/work/ssda/04.png" />
+    <img class="post-content-screen desktop" src="{{ site.baseurl }}/img/work/ssda/03.jpg" />
+    <img class="post-content-screen desktop" src="{{ site.baseurl }}/img/work/ssda/04.jpg" />
     <img class="post-content-screen desktop" src="{{ site.baseurl }}/img/work/ssda/05.gif" />
-    <img class="post-content-screen desktop" src="{{ site.baseurl }}/img/work/ssda/06.png" />
-    <img class="post-content-screen desktop" src="{{ site.baseurl }}/img/work/ssda/07.png" />
-    <img class="post-content-screen desktop" src="{{ site.baseurl }}/img/work/ssda/08.png" />
-    <img class="post-content-screen desktop" src="{{ site.baseurl }}/img/work/ssda/09.png" />
-    <img class="post-content-screen desktop" src="{{ site.baseurl }}/img/work/ssda/10.png" />
+    <img class="post-content-screen desktop" src="{{ site.baseurl }}/img/work/ssda/06.jpg" />
+    <img class="post-content-screen desktop" src="{{ site.baseurl }}/img/work/ssda/07.jpg" />
+    <img class="post-content-screen desktop" src="{{ site.baseurl }}/img/work/ssda/08.jpg" />
+    <img class="post-content-screen desktop" src="{{ site.baseurl }}/img/work/ssda/09.jpg" />
+    <img class="post-content-screen desktop" src="{{ site.baseurl }}/img/work/ssda/10.jpg" />
     <img class="post-content-screen desktop" src="{{ site.baseurl }}/img/work/ssda/11.jpg" />
     <img class="post-content-screen desktop" src="{{ site.baseurl }}/img/work/ssda/12.jpg" />
     <img class="post-content-screen desktop" src="{{ site.baseurl }}/img/work/ssda/13.jpg" />
-    <img class="post-content-screen desktop" src="{{ site.baseurl }}/img/work/ssda/14.png" />
-    <img class="post-content-screen desktop" src="{{ site.baseurl }}/img/work/ssda/15.png" />
+    <img class="post-content-screen desktop" src="{{ site.baseurl }}/img/work/ssda/14.jpg" />
+    <img class="post-content-screen desktop" src="{{ site.baseurl }}/img/work/ssda/15.jpg" />
   </div>
 </div>
