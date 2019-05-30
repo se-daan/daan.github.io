@@ -4,7 +4,7 @@ date:             2019-05-05 00:00:00
 year:             2019
 class:            SSDA
 cover:            "/img/work/ssda/ssda-cover.png"
-color:            "#ffffff"
+color:            "#fafafa"
 hyperlink:        
 type:             "Brand programming"
 runin:            "천연비누협회 Seoul Soap Design LAB입니다. "
