@@ -13,7 +13,7 @@ layout:           post
 ---
 
 <div class="post-content-grid">
-  <div class="post-content-column column-1">
+  <div class="post-content-column column-1" style="width:960px";>
     <img class="post-content-screen desktop" src="{{ site.baseurl }}/img/work/ssda/01.jpg" />
     <img class="post-content-screen desktop" src="{{ site.baseurl }}/img/work/ssda/02.jpg" />
     <img class="post-content-screen desktop" src="{{ site.baseurl }}/img/work/ssda/03.jpg" />
