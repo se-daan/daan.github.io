@@ -1,14 +1,14 @@
 ---
 title:            "SSDA"
-date:             2019-05-05 00:00:00
-year:             2019
-class:            SSDA
-cover:            "/img/work/ssda/ssda-cover.png"
-color:            "#fafafa"
-hyperlink:        
-type:             "Brand programming"
-runin:            "천연비누협회 Seoul Soap Design LAB입니다. "
 description:      "Logo | Visual identity | Patent<br>Bookcover | Package design | Print design"
+class:            SSDA
+date:             2019-05-05 00:00:00
+color:            "#fafafa"
+cover:            "/img/work/ssda/ssda-cover.png"
+type:             "Brand programming"
+year:             2019
+runin:            "천연비누협회 Seoul Soap Design LAB입니다. "
+hyperlink:        
 layout:           post
 ---
 
