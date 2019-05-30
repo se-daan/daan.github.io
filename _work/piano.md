@@ -1,14 +1,14 @@
 ---
-title:            "Piano"
 date:             2017-11-11 00:00:00
-year:             2017
+title:            "Piano"
 class:            piano
+description:      "Logo | Visual identity | Patent<br>UIUX | Print design"
 color:            "#FFE0E2"
 cover:            "/img/work/thinkwithgoogle/thinkwithgoogle-cover.svg"
-hyperlink:        http://apac.thinkwithgoogle.com
 type:             "Brand programing with UIUX"
-description:      "Logo | Visual identity | Patent<br>UIUX | Print design"
+year:             2017
 runin:            "세상에서 가장 빠르고 아름다운 메모앱 Piano입니다."
+hyperlink:        
 layout:           post
 ---
 
