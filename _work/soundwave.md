@@ -1,12 +1,12 @@
 ---
-title:            "Sound Wave"
 date:             2018-05-05 00:00:00
-year:             2018
+title:            "Sound Wave"
 class:            soundwave
+description:      "Logo | Visual identity | Print design"
 color:            "#DCECDB"
 cover:            "/img/work/womenwill/womenwill-cover.svg"
 type:             "Brand programming"
-description:      "Logo | Visual identity | Print design"
+year:             2018
 runin:            "음향스튜디오 Sound Wave입니다."
 layout:           post
 ---
