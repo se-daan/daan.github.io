@@ -1,14 +1,14 @@
 ---
-title:            "HEノAN"
 date:             2018-12-12 00:00:00
-year:             2018
-color:            "#F3E8EE"
+title:            "HEノAN"
 class:            heian
-cover:            "/img/work/tokyoartbeat/tab-cover.svg"
-hyperlink:        https://www.webcomponents.org/
-type:             "Brand programming"
 description:      "Logo | Visual identity<br>Package design | Print design"
+color:            "#F3E8EE"
+cover:            "/img/work/tokyoartbeat/tab-cover.svg"
+type:             "Brand programming"
+year:             2018
 runin:            "유서깊은 일본 화장품 제조회사 ㅇㅇ과 협업으로 탄생한 K-Beauty HEノAN입니다."
+hyperlink:        
 layout:           post
 ---
 
