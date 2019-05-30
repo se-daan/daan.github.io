@@ -1,8 +1,8 @@
 ---
-title:            "SSDA"
-description:      "Logo | Visual identity | Patent<br>Bookcover | Package design | Print design"
-class:            SSDA
 date:             2019-05-05 00:00:00
+title:            "SSDA"
+class:            ssda
+description:      "Logo | Visual identity | Patent<br>Bookcover | Package design | Print design"
 color:            "#fafafa"
 cover:            "/img/work/ssda/ssda-cover.png"
 type:             "Brand programming"
