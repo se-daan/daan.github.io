@@ -1,13 +1,13 @@
 ---
-title:            "Women Will"
-date:             2014-08-20 14:00:00
-year:             2014
-class:            womenwill
+title:            "Sound Wave"
+date:             2018-05-05 00:00:00
+year:             2018
+class:            soundwave
 color:            "#DCECDB"
 cover:            "/img/work/womenwill/womenwill-cover.svg"
-type:             "Web / Visualisation Design"
-description:      "Exploratory data visualisation work for Google"
-runin:            "Women Will is a Google initiative that develop and support programs to help women build skills, get inspired, and connect with each other.<br/><br/>In its first year, the initiative commissioned a market research to find out how women all across South East Asia used the internet and the devices to access it. I did exploratory data visualisation work for Google Brand Studio to present these findings."
+type:             "Brand programming"
+description:      "Logo | Visual identity | Print design"
+runin:            "음향스튜디오 Sound Wave입니다."
 layout:           post
 ---
 
