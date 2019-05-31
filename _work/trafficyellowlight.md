@@ -9,7 +9,7 @@ type:             "Public design"
 year:             2019
 runin:            "교통신호."
 hyperlink:        
-published : true
+published:        false
 layout:           post
 ---
 
