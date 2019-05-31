@@ -8,6 +8,7 @@ cover:            "/img/work/womenwill/womenwill-cover.svg"
 type:             "Brand programming"
 year:             2018
 runin:            "음향스튜디오 Sound Wave입니다."
+published:        false
 layout:           post
 ---
 
