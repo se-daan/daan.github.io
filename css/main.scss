@@ -68,3 +68,7 @@
     display: none;
   }
 }
+
+.png { 
+    tmp:expression(setPng24(this)); 
+}
