@@ -9,6 +9,7 @@ type:             "Brand programing with UIUX"
 year:             2017
 runin:            "세상에서 가장 빠르고 아름다운 메모앱 Piano입니다."
 hyperlink:        
+published:        false
 layout:           post
 ---
 
