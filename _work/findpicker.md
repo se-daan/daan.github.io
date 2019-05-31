@@ -9,6 +9,7 @@ type:             "Brand programming"
 year:             2018
 runin:            "세계의 숨은 양질의 제품을 소개하는 편집 브랜드 Find picekr입니다."
 hyperlink:        
+published:        false
 layout:           post
 ---
 
