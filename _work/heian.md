@@ -9,6 +9,7 @@ type:             "Brand programming"
 year:             2018
 runin:            "유서깊은 일본 화장품 제조회사 ㅇㅇ과 협업으로 탄생한 K-Beauty HEノAN입니다."
 hyperlink:        
+published:        false
 layout:           post
 ---
 
