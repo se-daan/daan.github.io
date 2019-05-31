@@ -9,6 +9,7 @@ type:             "Brand programming"
 year:             2019
 runin:            "NROO입니다."
 hyperlink:        
+published:        false
 layout:           post
 ---
 
