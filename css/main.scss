@@ -72,3 +72,23 @@
 .png { 
     tmp:expression(setPng24(this)); 
 }
+
+.hint2:hover:before {
+opacity: 1;
+}
+
+span:before {
+  content: attr(aria-label);
+  opacity: 0;
+  position: absolute;
+  top: 30px;
+  right: -90px;
+  font-size: 14px;
+  width: 100px;
+  padding: 10px;
+  color: #fff;
+  background-color: #555;
+  border-radius: 3px;
+  pointer-events: none;
+}
+
