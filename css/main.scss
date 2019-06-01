@@ -48,16 +48,6 @@
         color: #fff;
 }
 
-.hint2 {
-        border-bottom: 2px solid #111;       
-}
-
-.hint2:hover {
-        color: #fff;
-        background-color: #0000ff;
-        border-bottom: 2px solid #0000ff;
-}
-
 .kr {
         display: none;
 }
@@ -73,11 +63,21 @@
     tmp:expression(setPng24(this)); 
 }
 
+.hint2 {
+        border-bottom: 2px solid #111;       
+}
+
+.hint2:hover {
+        color: #fff;
+        background-color: #0000ff;
+        border-bottom: 2px solid #0000ff;
+}
+
 .hint2:hover:before {
 opacity: 1;
 }
 
-span:before {
+.hint2:before {
   content: attr(aria-label);
   opacity: 0;
   position: absolute;
