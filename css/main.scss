@@ -79,17 +79,39 @@ opacity: 1;
 }
 
 .hint2:before {
-  content: attr(aria-label);
   opacity: 0;
   position: absolute;
   top: 30px;
   right: -90px;
   font-size: 14px;
-  width: 100px;
+  width: 200px;
   padding: 10px;
   color: #fff;
   background-color: #555;
-  border-radius: 3px;
+  border-radius: 1px;
   pointer-events: none;
 }
 
+#en01:before {
+  content: attr(aria-label);
+}
+
+#en02:before {
+  content: attr(aria-label);
+}
+
+#en03:before {
+  content: attr(aria-label);
+}
+
+#kr01:before {
+  content: attr(aria-label);
+}
+
+#kr02:before {
+  content: attr(aria-label);
+}
+
+#kr03:before {
+  content: attr(aria-label);
+}
