@@ -27,19 +27,19 @@ layout:           post
 </div>
 
 <div class="post-content-grid">
-  <div class="post-content-column column-5">
+  <div class="post-content-column column-4">
     <img class="post-content-screen desktop" src="{{ site.baseurl }}/img/work/heian/10_1.jpg" />
   </div>
-  <div class="post-content-column column-5 offset-2">
+  <div class="post-content-column column-4 offset-2">
     <img class="post-content-screen desktop" src="{{ site.baseurl }}/img/work/heian/10_2.jpg" />
   </div>
 </div>
 
 <div class="post-content-grid">
-  <div class="post-content-column column-5">
+  <div class="post-content-column column-4">
     <img class="post-content-screen desktop" src="{{ site.baseurl }}/img/work/heian/10_3.jpg" />
   </div>
-  <div class="post-content-column column-5 offset-2">
+  <div class="post-content-column column-4 offset-2">
     <img class="post-content-screen desktop" src="{{ site.baseurl }}/img/work/heian/10_4.jpg" />
   </div>
 </div>
