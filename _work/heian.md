@@ -14,7 +14,7 @@ layout:           post
 ---
 
 <div class="post-content-grid">
-  <div class="post-content-column column-3 offset-1">
+  <div class="post-content-column column-1">
     <img class="post-content-screen iphone lazyload" src="{{ site.baseurl }}/img/work/heian/01.jpg" />
     <img class="post-content-screen iphone lazyload" src="{{ site.baseurl }}/img/work/heian/02.jpg" />
     <img class="post-content-screen iphone lazyload" src="{{ site.baseurl }}/img/work/heian/03.jpg" />
@@ -45,7 +45,7 @@ layout:           post
 </div>
 
 <div class="post-content-grid">
-  <div class="post-content-column column-3 offset-1">
+  <div class="post-content-column column-1">
     <img class="post-content-screen iphone lazyload" src="{{ site.baseurl }}/img/work/heian/11.jpg" />
     <img class="post-content-screen iphone lazyload" src="{{ site.baseurl }}/img/work/heian/12.jpg" />
     <img class="post-content-screen iphone lazyload" src="{{ site.baseurl }}/img/work/heian/13.jpg" />
