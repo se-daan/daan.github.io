@@ -15,40 +15,40 @@ layout:           post
 
 <div class="post-content-grid">
   <div class="post-content-column column-1">
-    <img class="post-content-screen iphone lazyload" src="{{ site.baseurl }}/img/work/heian/01.jpg" />
-    <img class="post-content-screen iphone lazyload" src="{{ site.baseurl }}/img/work/heian/02.jpg" />
-    <img class="post-content-screen iphone lazyload" src="{{ site.baseurl }}/img/work/heian/03.jpg" />
-    <img class="post-content-screen iphone lazyload" src="{{ site.baseurl }}/img/work/heian/05.jpg" />
-    <img class="post-content-screen iphone lazyload" src="{{ site.baseurl }}/img/work/heian/06.jpg" />
-    <img class="post-content-screen iphone lazyload" src="{{ site.baseurl }}/img/work/heian/07.jpg" />
-    <img class="post-content-screen iphone lazyload" src="{{ site.baseurl }}/img/work/heian/08.jpg" />
-    <img class="post-content-screen iphone lazyload" src="{{ site.baseurl }}/img/work/heian/09.gif" />
+    <img class="post-content-screen desktop" src="{{ site.baseurl }}/img/work/heian/01.jpg" />
+    <img class="post-content-screen desktop" src="{{ site.baseurl }}/img/work/heian/02.jpg" />
+    <img class="post-content-screen desktop" src="{{ site.baseurl }}/img/work/heian/03.jpg" />
+    <img class="post-content-screen desktop" src="{{ site.baseurl }}/img/work/heian/05.jpg" />
+    <img class="post-content-screen desktop" src="{{ site.baseurl }}/img/work/heian/06.jpg" />
+    <img class="post-content-screen desktop" src="{{ site.baseurl }}/img/work/heian/07.jpg" />
+    <img class="post-content-screen desktop" src="{{ site.baseurl }}/img/work/heian/08.jpg" />
+    <img class="post-content-screen desktop" src="{{ site.baseurl }}/img/work/heian/09.gif" />
   </div>
 </div>
 
 <div class="post-content-grid">
   <div class="post-content-column column-5">
-    <img class="post-content-styleguide lazyload" src="{{ site.baseurl }}/img/work/heian/10_1.jpg" />
+    <img class="post-content-screen desktop" src="{{ site.baseurl }}/img/work/heian/10_1.jpg" />
   </div>
   <div class="post-content-column column-5 offset-2">
-    <img class="post-content-styleguide lazyload" src="{{ site.baseurl }}/img/work/heian/10_2.jpg" />
+    <img class="post-content-screen desktop" src="{{ site.baseurl }}/img/work/heian/10_2.jpg" />
   </div>
 </div>
 
 <div class="post-content-grid">
   <div class="post-content-column column-5">
-    <img class="post-content-styleguide lazyload" src="{{ site.baseurl }}/img/work/heian/10_3.jpg" />
+    <img class="post-content-screen desktop" src="{{ site.baseurl }}/img/work/heian/10_3.jpg" />
   </div>
   <div class="post-content-column column-5 offset-2">
-    <img class="post-content-styleguide lazyload" src="{{ site.baseurl }}/img/work/heian/10_4.jpg" />
+    <img class="post-content-screen desktop" src="{{ site.baseurl }}/img/work/heian/10_4.jpg" />
   </div>
 </div>
 
 <div class="post-content-grid">
   <div class="post-content-column column-1">
-    <img class="post-content-screen iphone lazyload" src="{{ site.baseurl }}/img/work/heian/11.jpg" />
-    <img class="post-content-screen iphone lazyload" src="{{ site.baseurl }}/img/work/heian/12.jpg" />
-    <img class="post-content-screen iphone lazyload" src="{{ site.baseurl }}/img/work/heian/13.jpg" />
-    <img class="post-content-screen iphone lazyload" src="{{ site.baseurl }}/img/work/heian/14.jpg" />
+    <img class="post-content-screen desktop" src="{{ site.baseurl }}/img/work/heian/11.jpg" />
+    <img class="post-content-screen desktop" src="{{ site.baseurl }}/img/work/heian/12.jpg" />
+    <img class="post-content-screen desktop" src="{{ site.baseurl }}/img/work/heian/13.jpg" />
+    <img class="post-content-screen desktop" src="{{ site.baseurl }}/img/work/heian/14.jpg" />
   </div>
 </div>
