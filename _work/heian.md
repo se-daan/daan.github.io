@@ -3,7 +3,7 @@ date:             2018-12-12 00:00:00
 title:            "HEノAN"
 class:            heian
 description:      "Logo | Visual identity<br>Package design | Print design"
-color:            "#F3E8EE"
+color:            "#fafafa"
 cover:            "/img/work/heian/heian-cover.jpg"
 type:             "Brand programming"
 year:             2018
