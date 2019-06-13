@@ -22,10 +22,11 @@ layout:           post
 
 <div class="post-content-grid">
   <div class="post-content-column column-2">
-    <img class="post-content-screen desktop" src="{{ site.baseurl }}/img/work/soundwave/04-1.jpg" />
+    <img class="post-content-screen desktop" src="{{ site.baseurl }}/img/work/soundwave/04_1.jpg" />
   </div>
   <div class="post-content-column column-3">
     <img class="post-content-screen iphone" src="{{ site.baseurl }}/img/work/soundwave/04-2.jpg" />
+  </div>
   </div>
 
 <div class="post-content-grid">
