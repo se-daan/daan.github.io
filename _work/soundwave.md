@@ -3,7 +3,7 @@ date:             2018-05-05 00:00:00
 title:            "Sound Wave"
 class:            soundwave
 description:      "Logo | Visual identity | UXUI | Print design"
-color:            "#DCECDB"
+color:            "#fafafa"
 cover:            "/img/work/soundwave/soundwave-cover.jpg"
 type:             "Brand programming"
 year:             2018
