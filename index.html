@@ -9,52 +9,50 @@ title: Portfolio
     <div class="ts-measure">
       <h1 id="Hello" class="ts-headline flip">Hello.</h1>
       <input id="changeLang" type="button" value="kr" onclick="language(this)">
-      <p style="margin:0";>&nbsp;</p>
+      <p style="margin:0" ;>&nbsp;</p>
       <div class="en">
-      <p>My name is Daan. I'm a designer but I wear many hats. I've help organizations <a class="hint2" href="#popup-en-1">tell their stories</a>
+        <p>My name is Daan. I'm a designer but I wear many hats. I've help organizations <a class="hint2" href="#popup-en-1">tell their stories</a>
 
-        <div id="popup-en-1" class="layer-wrap">
-          <div class="popup-layer">
-            <div class="popup-content">
-              resperct your brand and approach public.
-            </div>
-            <div class="btn-r">
+          <div id="popup-en-1" class="layer-wrap">
+            <div class="popup-layer">
+              resperct your brand and approach public
               <a class="btn-layerClose" href="#">&times;</a>
             </div>
           </div>
-        </div>
+      </div>
 
-        <span class="hint2" id="en02" aria-label="make something effective to deliver your brand">create better interactions</span> and <span class="hint2" id="en01" aria-label="apply for a patent, trademark">find a way to guard our efforts</span>.</p>
+      <span class="hint2" id="en02" aria-label="make something effective to deliver your brand">create better interactions</span> and <span class="hint2" id="en01" aria-label="apply for a patent, trademark">find a way to guard our efforts</span>.</p>
       <p>Do you need any help about vision of director and designer? <br id="s1">
         Welcome to meaningful project, intense starter anytime. Please feel free to <a class="hint" href="javascript: document.body.scrollIntoView(false);">contact me</a>.</p>
-      </div>
-      <div class="kr">
-      <p>반갑습니다 브랜드 설계사 문홍규 입니다. 브랜드는 장기적인 안목으로  저는 다방면의 역할을 이해하고 연관지어 장기적인 성장을 위한 비전을 제시합니다. 구체적으로 <span class="hint2" id="kr01" aria-label="브랜드의 성향을 이해하여 대중과의 접접을 찾습니다.">이야기를 만들고</span> <span class="hint2" id="kr02" aria-label="이미지, 제품, 웹 등 효과적인 전달매체를 기획, 제안합니다.">적합한 모습을 제안</span>하며 <span class="hint2" id="kr03" aria-label="권리보호를 위해 상표, 실용실안을 설계 및 출원합니다.">우리의 결실을 보호할 수 있는 방법</span>을 모색합니다.</p>
+    </div>
+    <div class="kr">
+      <p>반갑습니다 브랜드 설계사 문홍규 입니다. 브랜드는 장기적인 안목으로 저는 다방면의 역할을 이해하고 연관지어 장기적인 성장을 위한 비전을 제시합니다. 구체적으로 <span class="hint2" id="kr01" aria-label="브랜드의 성향을 이해하여 대중과의 접접을 찾습니다.">이야기를 만들고</span> <span class="hint2" id="kr02"
+          aria-label="이미지, 제품, 웹 등 효과적인 전달매체를 기획, 제안합니다.">적합한 모습을 제안</span>하며 <span class="hint2" id="kr03" aria-label="권리보호를 위해 상표, 실용실안을 설계 및 출원합니다.">우리의 결실을 보호할 수 있는 방법</span>을 모색합니다.</p>
       <p>성장을 위해 기획자,디자이너의 시선이 필요하신가요?<br>
         의미있는 프로젝트, 열정적인 스타터라면 언제든 환영합니다. <br id="s1">좋은 인연 <a class="hint" href="javascript: document.body.scrollIntoView(false);">기다리고 있겠습니다.</a></p>
+    </div>
+  </div>
+  <h2 class="section-title ts-strong"><span class="scroll-down">&#x02193; </span>Selected Projects</h2>
+</div>
+
+<div class="work">
+  <div class="work-list grid grid-d2-m1">
+    {% for work in site.work reversed %}
+    <div class="work-list-item grid-item {{ work.class }}">
+      <a class="work-list-item-link" href="{{ work.url | relative_url }}"></a>
+      <div class="work-list-item-media">
+        <div class="work-list-item-background" style="background-color: {{ work.color }};"></div>
+        <div class="work-list-item-media-inner"">
+              <img class=" work-list-item-thumbnail lazyload" src="{{ work.cover | relative_url }}" />
       </div>
     </div>
-    <h2 class="section-title ts-strong"><span class="scroll-down">&#x02193; </span>Selected Projects</h2>
-  </div>
-
-  <div class="work">
-    <div class="work-list grid grid-d2-m1">
-      {% for work in site.work reversed %}
-        <div class="work-list-item grid-item {{ work.class }}">
-          <a class="work-list-item-link" href="{{ work.url | relative_url }}"></a>
-          <div class="work-list-item-media">
-            <div class="work-list-item-background" style="background-color: {{ work.color }};"></div>
-            <div class="work-list-item-media-inner"">
-              <img class="work-list-item-thumbnail lazyload" src="{{ work.cover | relative_url }}" />
-            </div>
-          </div>
-          <div class="work-list-item-text">
-            <h3 class="work-list-item-title fs-reset">{{ work.title }}</h3>
-            <small class="work-list-item-type">{{ work.description }}</small>
-          </div>
-        </div>
-      {% endfor %}
+    <div class="work-list-item-text">
+      <h3 class="work-list-item-title fs-reset">{{ work.title }}</h3>
+      <small class="work-list-item-type">{{ work.description }}</small>
     </div>
   </div>
-  {% include footer.html %}
+  {% endfor %}
+</div>
+</div>
+{% include footer.html %}
 </div>
