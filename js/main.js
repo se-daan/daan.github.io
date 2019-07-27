@@ -45,7 +45,7 @@ function setPng24(obj) {
 
 var targetOffset, currentPosition,
     body = document.body,
-    button = document.getElementById('scrollButton'),
+    button = document.getElementByClassName('hint'),
     animateTime = 900;
 
 function getPageScroll() {
