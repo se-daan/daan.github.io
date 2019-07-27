@@ -27,7 +27,6 @@
 #Hello {
         display: inline-block;
 }
-
 #changeLang {
         float: right;
         position: relative;
@@ -45,7 +44,6 @@
 #changeLang:focus{
   display:none;
 }
-
 #changeLang:hover {
         background-color: #0000ff;
         color: #fff;
@@ -53,21 +51,51 @@
 
 .hint2 {
         border-bottom: 2px solid #111;
+        font-weight: bold;
 }
-
 .hint2:hover {
         color: #fff;
         background-color: #0000ff;
         border-bottom: 2px solid #0000ff;
 }
 
-.kr {
-        display: none;
-}
+.kr {display: none;}
 
 
   @media only screen and (max-width:650px){
   #s1 {
     display: none;
   }
+}
+
+
+
+
+.layer-wrap{
+  position: fixed;
+  background-color: rgba(1, 1, 1, 0.15);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  opacity: 0;
+  pointer-events: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.layer-wrap:target{
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.layer-wrap>div {
+  width: 400px;
+  position: relative;
+  margin: 10% auto;
+  padding: 2rem;
+  background: #f3f3f3;
+  color: #444;
 }
