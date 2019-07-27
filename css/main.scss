@@ -88,9 +88,11 @@
 }
 
 .layer-pop {
-  display: inline-block;
+  display: flex;
   height: auto;
-  vertical-align: middle;
+  align-items: center;
+  justify-content: center;
+  z-index: 20;
   z-index: 20;
 }
 
@@ -98,43 +100,3 @@
   opacity: 1;
   pointer-events: auto;
 }
-
-.layer-wrap>div {
-  width: 400px;
-  position: relative;
-  margin: 30% auto;
-  padding: 2rem;
-  background: #f3f3f3;
-  color: #444;
-}
-
-/***
-.layer-wrap{
-  position: fixed;
-  background-color: rgba(1, 1, 1, 0.15);
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 999;
-  opacity: 0;
-  pointer-events: none;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  transition: all 0.3s;
-}
-
-.layer-wrap:target{
-  opacity: 1;
-  pointer-events: auto;
-}
-
-.layer-wrap>div {
-  width: 400px;
-  position: relative;
-  margin: 10% auto;
-  padding: 2rem;
-  background: #f3f3f3;
-  color: #444;
-}
-***/
