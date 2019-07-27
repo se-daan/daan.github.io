@@ -71,25 +71,26 @@
 
 
 
-
 .layer-wrap {
-  display: none;
   position: fixed;
-  left: 0;
-  right: 0;
+  background-color: rgba(1, 1, 1, 0.15);
   top: 0;
+  right: 0;
   bottom: 0;
-  text-align: center;
-  background-color: rgba(0, 0, 0, 0.5);
+  left: 0;
+  z-index: 999;
+  opacity: 0;
+  pointer-events: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
-.layer-wrap:before {
-  content: "";
-  display: inline-block;
-  height: 100%;
-  vertical-align: middle;
-  margin-right: -.25em;
+.layer-wrap:target{
+  opacity: 1;
+  pointer-events: auto;
 }
+
 
 .popup-layer {
   display: inline-block;
@@ -98,7 +99,8 @@
   height: auto;
   background-color: #fff;
   border: 5px solid #3571B5;
-  z-index: 10; font-family:Tahoma;
+  z-index: 10;
+  font-family:Tahoma;
 }
 
   .popup-layer .pop-container {
