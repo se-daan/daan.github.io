@@ -87,18 +87,20 @@
   transition: all 0.3s;
 }
 
-.layer-pop {
-  display: flex;
-  height: auto;
-  align-items: center;
-  justify-content: center;
-  z-index: 20;
-  z-index: 20;
-}
-
 .layer-wrap:target{
   opacity: 1;
   pointer-events: auto;
+}
+
+.layer-pop {
+  width:80%;
+  max-width: 400px;
+  height: auto;
+  background: #f5f5f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 20;
 }
 
 .btn-popupClose{
