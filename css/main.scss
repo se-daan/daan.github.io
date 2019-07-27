@@ -42,6 +42,9 @@
         height: 32px;
         padding: 1px auto 2px auto;
 }
+#changeLang:focus{
+  display:none;
+}
 
 #changeLang:hover {
         background-color: #0000ff;
@@ -68,60 +71,3 @@
     display: none;
   }
 }
-
-
-
-.layer-wrap {
-  position: fixed;
-  background-color: rgba(1, 1, 1, 0.15);
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 999;
-  opacity: 0;
-  pointer-events: none;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  transition: all 0.3s;
-}
-
-.layer-wrap:target{
-  opacity: 1;
-  pointer-events: auto;
-}
-
-
-.popup-layer {
-  display: inline-block;
-  vertical-align: middle;
-  width: 500px;
-  height: auto;
-  background-color: #fff;
-  border: 5px solid #3571B5;
-  z-index: 10;
-  font-family:Tahoma;
-}
-
-  .popup-layer .pop-container {
-    padding: 20px 25px;
-  }
-
-  .pop-layer .btn-r {
-    width: 100%;
-    margin: 10px 0 20px;
-    padding-top: 10px;
-    border-top: 1px solid #DDD;
-    text-align: right;
-  }
-
-  a.btn-layerClose {
-    display: inline-block;
-    height: 25px;
-    padding: 0 14px 0;
-    border: 1px solid #304a8a;
-    background-color: #3f5a9d;
-    font-size: 13px;
-    color: #fff;
-    line-height: 25px;
-  }
