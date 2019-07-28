@@ -43,9 +43,6 @@
 }
 
 .popup{
-  display:flex;
-  align-items: center;
-  justify-content: center;
   position: fixed;
   background-color: rgba(1, 1, 1, 0.15);
   top: 0;
@@ -64,6 +61,13 @@
   pointer-events: auto;
 }
 
+.popup__close-container{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width:100%;
+}
+
 .popup__container {
   width:80%;
   max-width: 400px;
@@ -74,11 +78,6 @@
 }
 @media only screen and (max-width:650px){
   .popup__container{padding:1rem;}
-}
-
-.popup__close-container{
-  width:100%;
-  text-align: center;
 }
 
 .popup__close-btn{
