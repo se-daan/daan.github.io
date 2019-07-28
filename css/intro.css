@@ -1,3 +1,47 @@
+#Hello {
+        display: inline-block;
+}
+#changeLang {
+        float: right;
+        position: relative;
+        background-color: rgba(0,0,0,0);
+        border-radius: 100%;
+        border: none;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-weight: bold;
+        width: 32px;
+        height: 32px;
+        padding: 1px auto 2px auto!important;
+}
+#changeLang:focus{
+  display:none;
+}
+#changeLang:hover {
+        background-color: #0000ff;
+        color: #fff;
+}
+
+.hint2 {
+        border-bottom: 2px solid #111;
+        font-weight: bold;
+}
+.hint2:hover {
+        color: #fff;
+        background-color: #0000ff;
+        border-bottom: 2px solid #0000ff;
+}
+
+.kr {display: none;}
+
+
+  @media only screen and (max-width:650px){
+  #s1 {
+    display: none;
+  }
+}
+
 .popup{
   display:flex;
   align-items: center;
