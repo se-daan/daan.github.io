@@ -49,14 +49,16 @@
   left: 0;
   width: 100vw;
   height:100vh;
-  z-index: 10;
+  z-index: -10;
   opacity: 0;
+
   pointer-events: none;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
 }
 .popup:target{
+  z-index: 10;
   opacity: 1;
   pointer-events: auto;
 }
@@ -65,7 +67,13 @@
   display:flex;
   align-items: center;
   justify-content: center;
-  width:100%;
+
+  position: absolute;
+  top:0;
+  left:0;
+  bottom: 0;
+  right: 0;
+  cursor:default;
 }
 
 .popup__container {
@@ -81,6 +89,10 @@
   .popup__container{padding:1rem;}
 }
 
+.popup__close-container{
+  width:100%;
+  text-align: center;
+}
 .popup__close-btn{
   font-size: 150%;
 }
