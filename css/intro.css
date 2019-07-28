@@ -1,7 +1,7 @@
-#Hello {
+.ts-headline {
         display: inline-block;
 }
-#changeLang {
+.top-intro__changeLang {
         float: right;
         position: relative;
         background-color: rgba(0,0,0,0);
@@ -13,12 +13,12 @@
         font-weight: bold;
         width: 32px;
         height: 32px;
-        padding: 1px auto 2px auto!important;
+        padding: 1px auto 2px;
 }
-#changeLang:focus{
+.top-intro__changeLang:focus{
   display:none;
 }
-#changeLang:hover {
+.top-intro__changeLang:hover {
         background-color: #0000ff;
         color: #fff;
 }
