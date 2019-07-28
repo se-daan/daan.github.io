@@ -61,7 +61,7 @@
   pointer-events: auto;
 }
 
-.popup__close-container{
+.popup__close-fullscreen{
   display:flex;
   align-items: center;
   justify-content: center;
@@ -75,6 +75,7 @@
   background: #f0f0f0;
   z-index: 20;
   padding: 2rem;
+  color:#111;
 }
 @media only screen and (max-width:650px){
   .popup__container{padding:1rem;}
