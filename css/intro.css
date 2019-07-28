@@ -44,7 +44,7 @@
 
 .popup{
   position: fixed;
-  background-color: rgba(1, 1, 1, 0.15);
+  background-color: rgba(1, 1, 1, 0.4);
   top: 0;
   left: 0;
   width: 100vw;
@@ -85,7 +85,7 @@
   padding: 2rem;
   color:#111;
 }
-@media only screen and (max-width:650px){
+@media only screen and (max-width:640px){
   .popup__container{padding:1rem;}
 }
 
