@@ -49,7 +49,7 @@
   left: 0;
   width: 100vw;
   height:100vh;
-  z-index: -10;
+  z-index: 5;
   opacity: 0;
 
   pointer-events: none;
@@ -58,7 +58,6 @@
   transition: all 0.3s;
 }
 .popup:target{
-  z-index: 10;
   opacity: 1;
   pointer-events: auto;
 }
