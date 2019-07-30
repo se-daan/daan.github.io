@@ -1,9 +1,14 @@
+<head>
+  <link rel="stylesheet" href="../css/intro.css">
+</head>
+
 <style>
   .kr_f {
-   display: block; 
+    display: block;
   }
+
   .en_f {
-   display: none; 
+    display: none;
   }
 </style>
 
@@ -13,17 +18,40 @@
       <h2 class="section-title ts-strong">Capabilities</h2>
       <ul class="list-reset">
         <div class="en_f">
-        <li>Brand Programming</li>
-        <li>Visual Design</li>
-        <li>Pantent Analysis</li>
+          <li>Brand Programming</li>
+          <li>Visual Design</li>
+          <li>Pantent Analysis</li>
         </div>
         <div class="kr_f">
-        <li>브랜드 기획/설계</li>
-        <li>시각 디자인</li>
-        <li>권리보호 설계</li>
+          <li><a class="hint2" href="#popup-1">브랜드 기획/설계</a></li>
+          <li><a class="hint2" href="#popup-2">시각 디자인</a></li>
+          <li><a class="hint2" href="#popup-3">권리보호 설계</a></li>
         </div>
       </ul>
     </div> <!-- grid-item -->
+    <!--kr popup start-->
+    <div id="popup-1" class="popup">
+      <a href="#popup__close-fullscreen" class="popup__close-fullscreen">
+        <div class="popup__container">
+          <p>브랜드의 성향을 이해하여 대중과의 접접을 찾습니다.</p>
+        </div>
+      </a>
+    </div>
+    <div id="popup-2" class="popup">
+      <a href="#popup__close-fullscreen" class="popup__close-fullscreen">
+        <div class="popup__container">
+          <p>이미지, 제품, 웹 등 효과적인 전달매체를 기획 및 제안합니다.</p>
+        </div>
+      </a>
+    </div>
+    <div id="popup-3" class="popup">
+      <a href="#popup__close-fullscreen" class="popup__close-fullscreen">
+        <div class="popup__container">
+          <p>권리보호를 위해 상표, 실용실안을 설계 및 출원합니다.</p>
+        </div>
+      </a>
+    </div>
+    <!--popup end-->
     <div class="grid-item">
       <h2 class="section-title  ts-strong">Tools</h2>
       <ul class="list-reset">
@@ -32,8 +60,6 @@
         <li>Patent word</li>
         <li>HTML / CSS / Javascript</li>
         <li>Wordpress</li>
-        
-        
       </ul>
     </div> <!-- grid-item -->
     <div class="grid-item">
@@ -47,12 +73,13 @@
     </div> <!-- grid-item -->
     <div class="grid-item">
       <div class="en_f">
-      <blockquote>“All men are designers. All that we do, almost all the time, is design, for design is basic to all human activity. The planning and patterning of any act towards a desired, foreseeable end constitutes the design process. Any attempt to separate design, to make it a thing-by-itself, works counter to the inherent value of design as the primary underlying matrix of life. . . . Design is the conscious effort to impose meaningful order.”</blockquote>
-      <p class="author ts-align-right">–Victor Papanek</p>
+        <blockquote>“All men are designers. All that we do, almost all the time, is design, for design is basic to all human activity. The planning and patterning of any act towards a desired, foreseeable end constitutes the design process. Any
+          attempt to separate design, to make it a thing-by-itself, works counter to the inherent value of design as the primary underlying matrix of life. . . . Design is the conscious effort to impose meaningful order.”</blockquote>
+        <p class="author ts-align-right">–Victor Papanek</p>
       </div>
       <div class="kr_f">
-      <blockquote>“모든 사람은 디자이너다. 디자인은 모든 인간활동에 기본이 되기 때문이다. 디자이너들은 세상의 환경, 사회, 도덕적 문제에 책임을 느껴야 한다. 위기에 처한 세계의 요구에 응해야 하며 보다 나은 세상을 만드는 일에 기여해야 한다. 디자인의 궁극적인 목표는 인간의 환경과 그가 사용하는 도구를 변형시키고 더 나아가 인간 스스로까지 변화를 이끌어 내는 것이다.”</blockquote>
-      <p class="author ts-align-right">–Victor Papanek</p>
+        <blockquote>“모든 사람은 디자이너다. 디자인은 모든 인간활동에 기본이 되기 때문이다. 디자이너들은 세상의 환경, 사회, 도덕적 문제에 책임을 느껴야 한다. 위기에 처한 세계의 요구에 응해야 하며 보다 나은 세상을 만드는 일에 기여해야 한다. 디자인의 궁극적인 목표는 인간의 환경과 그가 사용하는 도구를 변형시키고 더 나아가 인간 스스로까지 변화를 이끌어 내는 것이다.”</blockquote>
+        <p class="author ts-align-right">–Victor Papanek</p>
       </div>
     </div> <!-- grid-item -->
   </div>
@@ -66,10 +93,17 @@
 <script src="{{ site.baseurl }}/js/ladysizes.min.js" type="text/javascript" charset="utf-8" async defer></script>
 <script src="{{ site.baseurl }}/js/main.js" type="text/javascript" charset="utf-8" async defer></script>
 <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  (function(i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function() {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date();
+    a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
   ga('create', '{{ site.ga }}', 'auto');
   ga('send', 'pageview');
