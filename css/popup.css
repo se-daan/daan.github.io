@@ -10,7 +10,7 @@
 }
 
 /* 레이어 팝업 배경 */
-.popup-background{
+.popup-background2{
   position: fixed;
   background-color: rgba(1, 1, 1, 0.4);
   top: 0;
@@ -25,7 +25,7 @@
   -moz-transition: all 0.3s;
   transition: all 0.3s;
 }
-.popup__close-fullscreen{
+.popup__close-fullscreen2{
   position: absolute;
   top:0;
   left:0;
@@ -35,7 +35,7 @@
 }
 
 /* 레이어 팝업 */
-.popup{
+.popup2{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -52,12 +52,12 @@
   -moz-transition: all 0.3s;
   transition: all 0.3s;
 }
-.popup:target{
+.popup2:target{
   opacity: 1;
   pointer-events: auto;
 }
 
-.popup__container {
+.popup__container2 {
   width:80%;
   max-width: 400px;
   height: auto;
@@ -67,5 +67,5 @@
   color:#111;
 }
 @media only screen and (max-width:640px){
-  .popup__container{padding:1rem;}
+  .popup__container2{padding:1rem;}
 }
