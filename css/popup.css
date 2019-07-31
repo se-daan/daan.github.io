@@ -11,7 +11,6 @@
 
 /* 레이어 팝업 배경 */
 .popup-background{
-  visibility: hidden;
   position: fixed;
   background-color: rgba(1, 1, 1, 0.4);
   top: 0;
