@@ -35,6 +35,9 @@ function popupBackground(){
     document.querySelector('.popup-background2').style.opacity = '1';
   }
 
+function removePopupBackground() {
+  document.querySelector('.popup-background2').style.opacity = '0';
+}
 
 function setPng24(obj) { 
     obj.width=obj.height=1; 
