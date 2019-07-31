@@ -31,6 +31,11 @@ function language(self) {
   }
 }
 
+function popupBackground(){
+    document.querySelector('.popup-background2').style.opacity = '1';
+  }
+
+
 function setPng24(obj) { 
     obj.width=obj.height=1; 
     obj.className=obj.className.replace(/\bpng24\b/i,''); 
