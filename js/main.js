@@ -31,7 +31,7 @@ function language(self) {
   }
 }
 
-function popupBackground(){
+function addPopupBackground(){
     document.querySelector('.popup-background2').style.opacity = '1';
   }
 
