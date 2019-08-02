@@ -28,6 +28,7 @@
   }
 }
 
+/*link deisgn: move to contact*/
 .hint1 {
   border-bottom: 2px solid #111;
   font-weight: bold;
@@ -36,13 +37,13 @@
   .hint1:hover{
     color: #00f;
   }
+}
 
-
+/*link design: layer popup*/
 .hint2 {
   border-bottom: 2px solid #111;
   font-weight: bold;
 }
-
 @media only screen and (max-width:600px) {
   .hint2:hover {
     color: #fff;
@@ -56,9 +57,7 @@
 }
 
 @media only screen and (max-width:650px) {
-  #s1 {
-    display: none;
-  }
+  #s1 {display: none;}
 }
 
 .popup {
