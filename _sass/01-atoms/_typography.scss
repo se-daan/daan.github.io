@@ -27,23 +27,7 @@ hr {
   }
 }
 
-a {
-  color: $color-text;
-  font-weight: 700;
-  text-decoration: none;
- 
-  &.hint1,
-  .hint1,
-  &.hint2,
-  .hint2 {
-    border-bottom: 2px solid $color-text;
-    &:hover { 
-      color: $color-link-hover;
-    }
-  }
-}
-
-/*original*/
+/*OFF*/
 /*
 a {
   color: $color-text;
