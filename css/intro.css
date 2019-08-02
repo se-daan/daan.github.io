@@ -31,7 +31,7 @@
   font-weight: bold;
 }
 @media only screen and (max-width:600px) {
-  .hint1{
+  .hint1:hover{
     color: #00f;
   }
 
