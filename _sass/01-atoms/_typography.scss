@@ -31,9 +31,27 @@ a {
   color: $color-text;
   font-weight: 700;
   text-decoration: none;
-  /*&:hover {
+ 
+  &.hint1,
+  .hint1,
+  &.hint2,
+  .hint2 {
+    border-bottom: 2px solid $color-text;
+    &:hover { 
+      color: $color-link-hover;
+    }
+  }
+}
+
+/*original*/
+/*
+a {
+  color: $color-text;
+  font-weight: 700;
+  text-decoration: none;
+  &:hover {
     color: $color-link-hover;
-  }*/
+  }
   &.hint,
   .hint {
     border-bottom: 2px solid $color-text;
@@ -41,6 +59,7 @@ a {
     }
   }
 }
+*/
 
 p {
   margin: 1rem 0;
