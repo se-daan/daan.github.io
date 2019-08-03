@@ -4,19 +4,19 @@
 
 .top-intro__changeLang {
   float: right;
-  position: relative;
+  position: flex;
+  align-items: center;
+  justify-content: center;
+
   background-color: rgba(0, 0, 0, 0);
   border-radius: 100%;
   border: none;
-  text-align: center;
   text-decoration: none;
   display: inline-block;
   font-weight: bold;
   width: 32px;
   height: 32px;
-  padding: 1px auto 2px;
 }
-
 .top-intro__changeLang:focus {
   display: none;
 }
