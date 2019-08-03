@@ -27,26 +27,7 @@ hr {
   }
 }
 
-/*레이어 팝업을 위해 개조. 일반link를 위한 a는 span onclick로 대체*/
-a {
-  color: $color-text;
-  font-weight: 700;
-  text-decoration: none;
-  border-bottom: 2px solid #111;
-  &:hover {
-    color: #fff;
-      background-color: #00f;
-      border-bottom: 2px solid #00f;
-  }
-  &.hint,
-  .hint {
-    border-bottom: 2px solid $color-text;
-    &:hover {
-    }
-  }
-}
 
-/*원본
 a {
   color: $color-text;
   font-weight: 700;
@@ -61,7 +42,6 @@ a {
     }
   }
 }
-*/
 
 
 p {
