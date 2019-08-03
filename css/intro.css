@@ -29,12 +29,24 @@
 .link-span {
   border-bottom: 2px solid #111;
   font-weight: bold;
+  cursor:pointer;
 }
 @media only screen and (min-width:600px) {
   .link-span:hover {
     color: #00f;
   }
 }
+/*link deisgn: layer popup*/
+  .link-popup {
+    border-bottom: 2px solid #111;
+    font-weight: bold;
+    cursor:pointer;
+  }
+    .link-popup:hover {
+      color: #fff;
+      background-color: #00f;
+      border-bottom: 2px solid #00f;
+    }
 
   .en {
     display: none;
