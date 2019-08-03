@@ -4,10 +4,6 @@
 
 .top-intro__changeLang {
   float: right;
-  position: flex;
-  align-items: center;
-  justify-content: center;
-
   background-color: rgba(0, 0, 0, 0);
   border-radius: 100%;
   border: none;
@@ -16,6 +12,7 @@
   font-weight: bold;
   width: 32px;
   height: 32px;
+  text-align: center;
 }
 .top-intro__changeLang:focus {
   display: none;
