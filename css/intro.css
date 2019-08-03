@@ -29,28 +29,15 @@
 }
 
 /*link deisgn: move to contact*/
-.hint1 {
+.link-span {
   border-bottom: 2px solid #111;
   font-weight: bold;
 }
 @media only screen and (min-width:600px) {
-  .hint1:hover {
+  .link-span:hover {
     color: #00f;
   }
 }
-
-/*link design: layer popup*/
-  .hint2 {
-    border-bottom: 2px solid #111;
-    font-weight: bold;
-  }
-  @media only screen and (min-width:600px) {
-    .hint2:hover {
-      color: #fff;
-      background-color: #00f;
-      border-bottom: 2px solid #00f;
-    }
-  }
 
   .en {
     display: none;
