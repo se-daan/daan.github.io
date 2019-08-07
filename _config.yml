@@ -1,7 +1,7 @@
 # Site settings
-title: Daan
+title: studio一白
 email: studio.a.hundred@gmail.com
-description: "브랜드설계사 문홍규입니다."
+description: "studio一白 : 비즈니스에 입각한 브랜드설계"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://se-daan.github.io" # the base hostname & protocol for your site
 g-analytics: UA-145066389-1
