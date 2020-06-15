@@ -2,10 +2,10 @@
 date:             2020-03-03 00:00:00
 title:            "washble"
 class:            washble
-description:      "service design"
+description:      "service design |  BM development"
 color:            "#fafafa"
 cover:            "/img/work/washble/washble-cover.jpg"
-type:             "sevice design"
+type:             "sevice design, BM development"
 year:             2020
 runin:            "텀블러를 대여하고 세척/수거하는 서비스입니다."
 hyperlink:
