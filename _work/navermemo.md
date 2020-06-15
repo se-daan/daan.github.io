@@ -9,6 +9,7 @@ type:             "App UXUI"
 year:             2017
 runin:            "사용 빈도순으로 데이터정리와 열람이 쉽게 가능한 피처 테스트입니다."
 hyperlink:
+published:        ture
 layout:           post
 ---
 
