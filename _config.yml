@@ -1,7 +1,7 @@
 # Site settings
 title: DAAN
 email: pung-dal@naver.com
-description: "Daan's Portfoilo"
+description: "안녕하세요. 디자이너 문홍규입니다."
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://se-daan.github.io" # the base hostname & protocol for your site
 g-analytics: UA-145066389-1
