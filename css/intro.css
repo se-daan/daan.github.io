@@ -103,8 +103,9 @@
   }
 
   .popup__container-data {
-    font-size: 70%!important;
-    font-weight: 700!important;
+    font-size: 75%!important;
+    font-weight: 600!important;
+    color: #333;
   }
 
   @media only screen and (max-width:640px) {
