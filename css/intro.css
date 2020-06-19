@@ -99,6 +99,7 @@
     padding: 2rem;
     color: #111;
     font-weight: 400!important;
+    font-size: 90%!important;
   }
 
   @media only screen and (max-width:640px) {
