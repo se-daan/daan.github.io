@@ -92,12 +92,13 @@
 
   .popup__container {
     width: 80%;
-    max-width: 400px;
+    max-width: 640px;
     height: auto;
     background: #fafafa;
     z-index: 20;
     padding: 2rem;
     color: #111;
+    font-weight: 400!important;
   }
 
   @media only screen and (max-width:640px) {
